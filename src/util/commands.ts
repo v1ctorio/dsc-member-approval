@@ -1,5 +1,6 @@
 import { ApplicationCommandManager, REST, RESTPostAPIChatInputApplicationCommandsJSONBody, Routes, SlashCommandBuilder } from "discord.js";
 import { config } from "dotenv";
+config()
 
 const commands = new Map();
 
