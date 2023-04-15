@@ -1,0 +1,21 @@
+{
+  "name": "dsc-member-approval",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/v1ctorio/dsc-member-approval",
+  "author": "Vic <74506415+v1ctorio@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "setup": "node dist/util/commands.js",
+    "dev": "tsc && node dist/index.js"
+  }
+}
